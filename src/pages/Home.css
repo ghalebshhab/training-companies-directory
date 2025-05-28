@@ -1,0 +1,31 @@
+/* src/pages/Home.css */
+.home-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .home-container h1 {
+    font-size: 2.5rem;
+    color: #0052CC;
+  }
+  
+  .home-container p {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #2E2E2E;
+  }
+  
+  .home-button {
+    margin-top: 2rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+    background-color: #D62828;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .home-button:hover {
+    background-color: #b51d1d;
+  }
+  
