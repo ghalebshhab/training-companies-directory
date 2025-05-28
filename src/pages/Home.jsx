@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../pages/Home.css'
+import { useState } from 'react';
 function Home() {
+    // const [darkMode, setDarkMode] = useState(false);
   return (
-    <div style={{ padding: '2rem' }} className='home-container'>
+    
+      <div style={{ padding: '2rem' }} className='home-container'>
       <h1>Welcome to TrainHub Jordan</h1>
       <p>Discover and connect with training companies across Jordan.</p>
       <Link to="/directory">
@@ -11,7 +14,9 @@ function Home() {
           Browse Companies
         </button>
       </Link>
+     
     </div>
+ 
   );
 }
 

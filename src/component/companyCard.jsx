@@ -8,7 +8,8 @@ function CompanyCard({ company }) {
         marginBottom: '1rem',
         borderRadius: '8px',
         background: '#f9f9f9'
-      }}>
+        
+      }} className='card'>
         <h3>{company.name}</h3>
         <p><strong>City:</strong> {company.city}</p>
         <p><strong>Category:</strong> {company.category}</p>

@@ -28,18 +28,4 @@
   .card a:hover {
     text-decoration: underline;
   }
-  /* .company-card {
-    background-color: white;
-    color: black;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
   
-  /* Dark mode overrides 
-  /* .dark-mode .company-card {
-    background-color: #2a2a2a;  /* dark gray background 
-    color: #e0e0e0;             /* light text color 
-    box-shadow: 0 2px 6px rgba(255,255,255,0.1);
-  } */ 
