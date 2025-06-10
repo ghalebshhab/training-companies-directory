@@ -14,7 +14,7 @@ function CompanyCard({ company }) {
         <p><strong>City:</strong> {company.city}</p>
         <p><strong>Category:</strong> {company.category}</p>
         <p>{company.description}</p>
-        <a href={company.website} target="_blank" rel="noreferrer">
+        <a href={company.website} target="_blank" rel="noreferrer" title={company.name}>
           Visit Website
         </a>
       </div>

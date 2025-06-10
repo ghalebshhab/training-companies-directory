@@ -4,8 +4,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Directory from './pages/Directory';
 import About from './pages/About';
-import navBar from './component/navBar';
+import Navbar from './component/Navbar';
 import { useState } from 'react';
+import Login from './pages/Login'
+import Ghaleb from './pages/Ghaleb';
 function App() {
   const [darkMode, setDarkMode] = useState(false);
   return (
@@ -16,11 +18,13 @@ function App() {
             {darkMode ? "Light Mode" : "Dark Mode"}
           </button>
         </header>
-      <navBar/>
+      <Navbar/>
       <Routes>
+        <Route path="/login" element={<Login />} />
         <Route path="/" element={<Home />} />
         <Route path="/directory" element={<Directory />} />
         <Route path="/about" element={<About />} />
+        <Route path="/ghaleb" element={<Ghaleb />}/>
       </Routes>
       </div>
     </Router>

@@ -5,7 +5,7 @@
       "category": "IT",
       "city": "Amman",
       "description": "Specializes in web development and software training.",
-      "website": "https://abctraining.jo"
+      "website": "https://Facebook.com"
     },
     {
       "id": 2,
@@ -13,7 +13,7 @@
       "category": "Business",
       "city": "Irbid",
       "description": "Offers business management and marketing courses.",
-      "website": "https://smartbiz.jo"
+      "website": "https://Instagram.com"
     },
     {
       "id": 3,
@@ -21,6 +21,6 @@
       "category": "Graphic Design",
       "city": "Zarqa",
       "description": "Creative design courses and UI/UX training.",
-      "website": "https://designhub.jo"
+      "website": "https://Oracle.com"
     }
   ]
